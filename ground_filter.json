@@ -1,0 +1,37 @@
+{
+    "pipeline":[
+        {
+            "type":"filters.reprojection", // Take out all together stay away from reprojection and spatial refrence changes
+            "in_srs":"EPSG:3452",
+            "out_srs":"EPSG:26911"
+        }, 
+          {
+             "type":"filters.assign",
+             "assignment":"classification[:]=0" 
+          },
+         {
+            "type":"filters.elm",
+            "cell":20.0,
+            "class":18
+         },
+         {
+            "type":"filters.outlier",
+            "method":"statistical",
+            "mean_k":8,
+            "multiplier":2
+         },  
+        {
+            "type":"filters.smrf",
+            "ignore":"classification[7:7]",
+            "slope":0.15, // Slope made need to taken out, not listed as a paramter used by solsepc
+            "window":18,
+            "threshold":0.5,
+            "scalar":1.2
+        },
+        {
+            "type":"filters.range",
+            "limits":"Classification[2:2]"
+        }
+    ]
+    
+}
