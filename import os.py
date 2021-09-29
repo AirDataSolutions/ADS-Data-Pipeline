@@ -2,6 +2,8 @@
 #This file will be used to store the user inputs for later use. 
 
 import os
+import shutil
+
 path = 'c:\\temp\\elevation\\lidar_laz' #Change to Input Folder Destination for LiDAR Data. Right click the foler copy adress as text and paste, MAKE SURE THERES TWO \\'s
 files = os.listdir(path)
 
@@ -15,8 +17,16 @@ num_files = len(files)
 for f in files:
 	print(f)
 
-#Seeing if the go.txt file is in the list or it will not continue. @Jack make sure every part of the code from now on is properly indented.
-if(files.count("go.txt")>=1)
+#Seeing if the go.txt file is in the list or it will not continue. @Jack make sure every part of the code from now on is properly indented. Moving files.
+#Absolute paths
+
+src_path = r"bullshit
+dst_path = r"bullshit
+input_path = r"bullshit
+
+if(files.count("go.txt")>=1) 
+	shutil.move(src_path, dst_path)
+
 
 
 
