@@ -22,11 +22,12 @@ for f in files:
 
 src_path = r"Q:\\Lidar\\AUTOMATION\\RAWdata
 dst_path = r"Q:\\Lidar\\AUTOMATION\\HxmapAutomation
-input_path = r"Q:\\Lidar\\AUTOMATION\\Userinput
+input_src_path = r"Q:\\Lidar\\AUTOMATION\\RAWdata\\go.txt
+input_dst_path = r"Q:\\Lidar\\AUTOMATION\\Userinput\\go.txt
 
 if(files.count("go.txt")>=1) 
 	shutil.move(src_path, dst_path)
-	shutil.move(src_path, input_path)
+	shutil.move(input_src_path, input_dst_path)
 
 
 
