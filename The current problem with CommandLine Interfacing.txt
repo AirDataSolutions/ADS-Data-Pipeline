@@ -1,0 +1,111 @@
+Everything listed below was pulled from Procmon logs while processing lidar data through hxmap.
+
+when running just the command line commands I get the following return:
+
+1 [0x00003bac] INFO root null - Start ...
+Starting: Creating session
+Percent Done: 12.5%
+Percent Done: 25%
+
+Then the error:
+
+Error FODC0002 in file:///C:/Program Files/Hexagon/HxMap/Workflow Manager/ingest.exe, at line 1, column 20: Expected '=', but got ':'.
+Ingest profile does not match the schema C:/Program Files/Hexagon/HxMap/Workflow Manager/etc/schemas/IngestProfile.xsd
+
+I have a feeling it may possibly involve parts of the information below that is formatted like this:
+
+ <Project id=\"Natchitoches_test_flight_07192021_1\">
+    <Plan id=\"Natchitoches_test_flight_07192021_1\">
+     <Line id=\"001_005216\">
+      <Strip id=\"001_005216\">
+       <Take id=\"001_005216\">
+        <LiDAR id=\"001_005216\"/>
+
+What is this format?How can I use it in command line?
+
+
+COPIED FROM PROCESSMONITOR:
+
+C:\Program Files\Hexagon\HxMap\Workflow Manager\ingest  --commandId CreateSession 
+--raw --rawsession "Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/raw/MM4/20210825003503"
+ --rawsession "Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/raw/MM1/20210825003503"
+ --rawsession "Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/raw/MM2/20210825003503"
+ --rawsession "Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/raw/MM3/20210825003503"
+ --session "Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\ingest\20210825_003503\20210825_003503.hexrs"
+ --input " <IngestProfile xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://tempuri.org/XMLSchema.xsd\" xsi:schemaLocation=\"http://tempuri.org/XMLSchema.xsd IngestProfile.xsd\" version=\"1.0\">
+  <Session id=\"20210825003503\">
+   <AtmosphericData id=\"1\">
+    <Measure type=\"Temperature\" unit=\"celsius\" height=\"0\" measure=\"15\" measureTime=\"2021-08-25T00:52:35Z\" id=\"1\"/>
+    <Measure type=\"Pressure\" unit=\"kPa\" height=\"0\" measure=\"101.6\" measureTime=\"\" id=\"2\"/>
+   </AtmosphericData>
+   <Project id=\"Natchitoches_test_flight_07192021_1\">
+    <Plan id=\"Natchitoches_test_flight_07192021_1\">
+     <Line id=\"001_005216\">
+      <Strip id=\"001_005216\">
+       <Take id=\"001_005216\">
+        <LiDAR id=\"001_005216\"/>
+       </Take>
+      </Strip>
+     </Line>
+     <Line id=\"002_005659\">
+      <Strip id=\"002_005659\">
+       <Take id=\"002_005659\">
+        <LiDAR id=\"002_005659\"/>
+       </Take>
+      </Strip>
+     </Line>
+     <Line id=\"003_010127\">
+      <Strip id=\"003_010127\">
+       <Take id=\"003_010127\">
+        <LiDAR id=\"003_010127\"/>
+       </Take>
+      </Strip>
+     </Line>
+     <Line id=\"004_010545\">
+      <Strip id=\"004_010545\">
+       <Take id=\"004_010545\">
+        <LiDAR id=\"004_010545\"/>
+       </Take>
+      </Strip>
+     </Line>
+     <Line id=\"005_011048\">
+      <Strip id=\"005_011048\">
+       <Take id=\"005_011048\">
+        <LiDAR id=\"005_011048\"/>
+       </Take>
+      </Strip>
+     </Line>
+    </Plan>
+   </Project>
+  </Session>
+ </IngestProfile>
+" --calibration RCD30_82668-80260_v003 --calibration HYPERION-2_5556-91554_v003 --projectCalibrationPath C:/Users/Public/cam/v003 --trajectory "Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/Sol_file/20210825003503_GnssImu.sol" --productType {7a0adac7-9914-4093-acea-a88ab3e6c7f3} --filePattern " <FilePattern suffix=\"\" version=\"1\" separator=\"_\" id=\"Default\" prefix=\"\">
+  <Date checked=\"0\" pos=\"0\" longname=\"Date\">
+   <Year checked=\"0\" pos=\"0\" longname=\"Year\"/>
+   <Month checked=\"0\" pos=\"1\" longname=\"Month\"/>
+   <Day checked=\"0\" pos=\"2\" longname=\"Day\"/>
+  </Date>
+  <Time checked=\"0\" pos=\"1\" longname=\"Time\">
+   <Hour checked=\"0\" pos=\"0\" longname=\"Hour\"/>
+   <Minute checked=\"0\" pos=\"1\" longname=\"Minute\"/>
+   <Second checked=\"0\" pos=\"2\" longname=\"Second\"/>
+   <MSec checked=\"0\" pos=\"3\" longname=\"Millisecond\"/>
+  </Time>
+  <Take checked=\"1\" pos=\"2\" longname=\"Take\">
+   <TakeId checked=\"2\" pos=\"0\" longname=\"Id\"/>
+   <TakeName checked=\"0\" pos=\"1\" longname=\"Name\"/>
+   <TakeNumber checked=\"0\" pos=\"2\" longname=\"Number\"/>
+  </Take>
+  <SensorSystemSerialNumber checked=\"0\" pos=\"3\" longname=\"Sensor System Serial Number\"/>
+  <SensorSerial checked=\"2\" pos=\"4\" longname=\"Sensor Serial Number\"/>
+  <SessionId checked=\"0\" pos=\"5\" longname=\"Session\"/>
+  <Project checked=\"0\" pos=\"6\" longname=\"Project\"/>
+  <FlightPlan checked=\"0\" pos=\"7\" longname=\"Flight Plan\"/>
+  <FlightLine checked=\"0\" pos=\"8\" longname=\"Flight Line\">
+   <FlightLineId checked=\"0\" pos=\"0\" longname=\"Id\"/>
+   <FlightLineName checked=\"0\" pos=\"1\" longname=\"Name\"/>
+   <FlightLineNumber checked=\"0\" pos=\"2\" longname=\"Number\"/>
+  </FlightLine>
+  <Strip checked=\"0\" pos=\"9\" longname=\"Strip\">
+   <StripId c
+
