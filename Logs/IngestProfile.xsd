@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified">
+    <xs:element name="IngestProfile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="SessionType" name="Session" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="version" type="xs:float" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="SessionType">
+        <xs:sequence>
+			<xs:element type="CoordinateSystem" name="CoordinateSystem" minOccurs="0"/>
+			<xs:element type="AtmosphericData" name="AtmosphericData" minOccurs="0"/>
+            <xs:element type="ProjectType" name="Project" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+	
+
+    <xs:complexType name="ProjectType">
+        <xs:sequence>
+            <xs:element type="PlanType" name="Plan" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="CoordinateSystem">
+        <xs:attribute type="xs:string" name="coordSysName" use="required"/>
+		<xs:attribute type="xs:string" name="datumName" use="required"/>
+		<xs:attribute type="xs:string" name="vrefName" use="required"/>
+		<xs:attribute type="xs:string" name="hUnitsName" use="required"/>
+		<xs:attribute type="xs:string" name="vUnitsName" use="required"/>
+		<xs:attribute type="xs:string" name="lsr_anchorPt" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="AtmosphericData">
+        <xs:sequence>
+            <xs:element type="AtmosphericDataMeasure" name="Measure" maxOccurs="unbounded"/>
+        </xs:sequence>
+		<xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="PlanType">
+        <xs:sequence>
+            <xs:element type="LineType" name="Line" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="LineType">
+        <xs:sequence>
+            <xs:element type="StripType" name="Strip" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="StripType">
+        <xs:sequence>
+            <xs:element type="TakeType" name="Take" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="TakeType">
+        <xs:choice>
+            <xs:sequence>
+                <xs:element type="ImageType" name="Image" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:sequence>
+                <xs:element type="LiDARType" name="LiDAR"/>
+            </xs:sequence>
+        </xs:choice>
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="ImageType">
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="LiDARType">
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="AtmosphericDataMeasure">
+        <xs:attribute type="xs:integer" name="id" use="required" />
+		<xs:attribute type="measureType" name="type" use="required"/>
+		<xs:attribute type="xs:float" name="measure" use="required"/>
+		<xs:attribute type="xs:float" name="height"  use="required"/>
+		<xs:attribute type="xs:string" name="measureTime" use="required"/>
+		<xs:attribute type="xs:string" name="unit" use="required" />
+    </xs:complexType>
+	
+	<xs:simpleType name="measureType">
+       <xs:restriction base="xs:string">
+          <xs:enumeration value="Temperature" />
+          <xs:enumeration value="Pressure" />
+       </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
