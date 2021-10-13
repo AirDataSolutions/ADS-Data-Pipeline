@@ -1,0 +1,11 @@
+2021-10-11 17:05:03,962 [0x00003b30] INFO  root - Start ...
+2021-10-11 17:05:03,962 [0x00003b30] INFO  root - Start lasconverter ...
+2021-10-11 17:05:03,962 [0x00003b30] INFO  lasconverter - lasconverter (rev 3.0.0-55679)
+(C) 2006-2020 Leica Geosystems AG / North West Geomatics Ltd.
+2021-10-11 17:05:03,962 [0x00003b30] INFO  lasconverter - C:\Program Files\Hexagon\HxMap\Workflow Manager\lasconverter --input Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/ingest/20210825_003503/Natchitoches_test_flight_07192021_1/Natchitoches_test_flight_07192021_1/001_005216/pc --output Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/block/block/20210825_003503/intermediate/Natchitoches_test_flight_07192021_1/001/{ad284907-65e7-4d72-a71a-bc20acdc3d35}/001_005216.hpc --voxelSize 0.002 --ThinFilter NONTHIN --nomins 
+2021-10-11 17:05:03,963 [0x00003b30] INFO  lasconverter - lasconverter --input Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/ingest/20210825_003503/Natchitoches_test_flight_07192021_1/Natchitoches_test_flight_07192021_1/001_005216/pc --output Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/block/block/20210825_003503/intermediate/Natchitoches_test_flight_07192021_1/001/{ad284907-65e7-4d72-a71a-bc20acdc3d35}/001_005216.hpc
+2021-10-11 17:05:03,963 [0x00003b30] INFO  lasconverter - Available memory to use: 77238131712
+2021-10-11 17:05:03,963 [0x00003b30] INFO  lasconverter - Found 8 LAS/LAZ files to convert
+2021-10-11 17:07:38,583 [0x00003b30] INFO  lasconverter - Time to output HPC file is: 98 seconds.
+2021-10-11 17:07:39,546 [0x00003b30] INFO  lasconverter - Done creating HPC file.
+2021-10-11 17:07:40,398 [0x00003b30] INFO  root - End lasconverter

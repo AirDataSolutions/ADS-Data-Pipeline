@@ -1,0 +1,7 @@
+2021-10-11 17:46:44,959 [0x000035e8] INFO  root - Start ...
+2021-10-11 17:46:44,960 [0x000035e8] INFO  root - Start lidarMatching ...
+2021-10-11 17:46:44,960 [0x000035e8] INFO  lidarMatching - lidarMatching (rev 3.0.0-55679)
+(C) 2006-2020 Leica Geosystems AG / North West Geomatics Ltd.
+2021-10-11 17:46:44,960 [0x000035e8] INFO  lidarMatching - C:\Program Files\Hexagon\HxMap\Workflow Manager\lidarMatching --block Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk --take {b29fff7d-8691-4329-bd92-630d7f64801e} --take {b2e6094d-5b09-4cd1-bb4d-7abd5cc0e72a} --take {707cc1e5-cb1d-45fa-a5b5-7332aeabfaa1} --take {8882e8fd-4451-4029-a8fc-f0008666e0a0} --take {c2110f3c-ad95-4337-bf98-2dcc1a6ba765} --updateReference 
+2021-10-11 17:46:45,205 [0x000035e8] INFO  lidarMatching - Licensing initialization OK
+2021-10-11 17:46:47,301 [0x000035e8] INFO  root - End lidarMatching

@@ -1,0 +1,409 @@
+2021-10-12 15:35:43,491 [0x00004dbc] INFO  root - Start ...
+2021-10-12 15:35:43,491 [0x00004dbc] INFO  root - Start pctool ...
+2021-10-12 15:35:43,491 [0x00004dbc] INFO  pctool - pctool (rev 3.0.0-55679)
+(C) 2006-2020 Leica Geosystems AG / North West Geomatics Ltd.
+2021-10-12 15:35:43,491 [0x00004dbc] INFO  pctool - C:\Program Files\Hexagon\HxMap\Workflow Manager\pctool --block Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk --take {b29fff7d-8691-4329-bd92-630d7f64801e} --output Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/ouput/block/LiDAR_las_1.4_Default_Product/001_005216 --coordinate la_n_83|WGS84|NAVD88 (Geoid12A/B) Conterminous United States|us survey feet|us survey feet --classification 0 --classification 1 --format LAS --lasVersion 1.4 --radiometricTemplate {e89d4642-f7fe-411e-9371-be9f92beec9f} --interface STD --pointCount 0 --filePattern  <FilePattern suffix="" version="1" separator="_" id="Default" prefix="">
+  <Date checked="0" pos="0" longname="Date">
+   <Year checked="0" pos="0" longname="Year"/>
+   <Month checked="0" pos="1" longname="Month"/>
+   <Day checked="0" pos="2" longname="Day"/>
+  </Date>
+  <Time checked="0" pos="1" longname="Time">
+   <Hour checked="0" pos="0" longname="Hour"/>
+   <Minute checked="0" pos="1" longname="Minute"/>
+   <Second checked="0" pos="2" longname="Second"/>
+   <MSec checked="0" pos="3" longname="Millisecond"/>
+  </Time>
+  <Take checked="1" pos="2" longname="Take">
+   <TakeId checked="2" pos="0" longname="Id"/>
+   <TakeName checked="0" pos="1" longname="Name"/>
+   <TakeNumber checked="0" pos="2" longname="Number"/>
+  </Take>
+  <SensorSystemSerialNumber checked="0" pos="3" longname="Sensor System Serial Number"/>
+  <SensorSerial checked="2" pos="4" longname="Sensor Serial Number"/>
+  <SessionId checked="0" pos="5" longname="Session"/>
+  <Project checked="0" pos="6" longname="Project"/>
+  <FlightPlan checked="0" pos="7" longname="Flight Plan"/>
+  <FlightLine checked="0" pos="8" longname="Flight Line">
+   <FlightLineId checked="0" pos="0" longname="Id"/>
+   <FlightLineName checked="0" pos="1" longname="Name"/>
+   <FlightLineNumber checked="0" pos="2" longname="Number"/>
+  </FlightLine>
+  <Strip checked="0" pos="9" longname="Strip">
+   <StripId checked="0" pos="0" longname="Id"/>
+   <StripName checked="0" pos="1" longname="Name"/>
+   <StripNumber checked="0" pos="2" longname="Number"/>
+  </Strip>
+  <SensorType checked="0" pos="10" longname="Sensor Type"/>
+  <SensorName checked="0" pos="11" longname="Sensor Name"/>
+  <Bands checked="0" pos="12" longname="Bands"/>
+ </FilePattern>
+ 
+2021-10-12 15:35:44,854 [0x00004dbc] INFO  pctool - Licensing initialization OK
+2021-10-12 15:35:45,008 [0x00004dbc] INFO  pctool - Loading the block from: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk
+2021-10-12 15:35:45,402 [0x00004dbc] INFO  pctool - Block loaded: block
+2021-10-12 15:35:45,402 [0x00004dbc] INFO  pctool - Loading radiometric template: Calibrated
+2021-10-12 15:35:45,402 [0x00004dbc] INFO  pctool - Loading the take: {b29fff7d-8691-4329-bd92-630d7f64801e}
+2021-10-12 15:35:45,402 [0x00004dbc] INFO  pctool - Take loaded: 001_005216
+2021-10-12 15:35:45,402 [0x00004dbc] INFO  pctool - Finding LiDAR point cloud from the take: 001_005216
+2021-10-12 15:35:45,402 [0x00004dbc] INFO  pctool - Number of point cloud files to be processed: 14
+2021-10-12 15:35:45,402 [0x00004dbc] INFO  pctool - Calculating the area to be processed
+2021-10-12 15:35:45,403 [0x00004dbc] INFO  pctool - Area to be processed: 83344141.027123
+2021-10-12 15:35:45,642 [0x00004dbc] INFO  pctool - OpenMP(0) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_7_adj.las
+2021-10-12 15:35:45,646 [0x00005028] INFO  pctool - OpenMP(1) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_6_adj.las
+2021-10-12 15:35:45,651 [0x00003628] INFO  pctool - OpenMP(2) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_7_adj.las
+2021-10-12 15:35:45,656 [0x00001b5c] INFO  pctool - OpenMP(3) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_6_adj.las
+2021-10-12 15:35:45,661 [0x00002684] INFO  pctool - OpenMP(4) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_5_adj.las
+2021-10-12 15:35:45,667 [0x000019d8] INFO  pctool - OpenMP(5) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_5_adj.las
+2021-10-12 15:35:45,674 [0x00000a40] INFO  pctool - OpenMP(6) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_4_adj.las
+2021-10-12 15:35:45,680 [0x00003aa8] INFO  pctool - OpenMP(7) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_4_adj.las
+2021-10-12 15:35:45,687 [0x000032a4] INFO  pctool - OpenMP(8) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_3_adj.las
+2021-10-12 15:35:45,693 [0x00003a64] INFO  pctool - OpenMP(9) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_3_adj.las
+2021-10-12 15:35:45,700 [0x00003cc0] INFO  pctool - OpenMP(10) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_2_adj.las
+2021-10-12 15:35:45,708 [0x00004f88] INFO  pctool - OpenMP(11) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_2_adj.las
+2021-10-12 15:35:45,715 [0x00002a40] INFO  pctool - OpenMP(12) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_1_adj.las
+2021-10-12 15:35:45,724 [0x000013b0] INFO  pctool - OpenMP(13) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_0_adj.las
+2021-10-12 15:35:45,896 [0x00004f88] INFO  pctool - OpenMP(11) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_2_adj.las
+2021-10-12 15:35:47,266 [0x00003a64] INFO  pctool - OpenMP(9) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_3_adj.las
+2021-10-12 15:35:48,181 [0x00003628] INFO  pctool - OpenMP(2) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_7_adj.las
+2021-10-12 15:35:49,157 [0x00003aa8] INFO  pctool - OpenMP(7) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_4_adj.las
+2021-10-12 15:35:50,088 [0x000019d8] INFO  pctool - OpenMP(5) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_5_adj.las
+2021-10-12 15:35:51,474 [0x00001b5c] INFO  pctool - OpenMP(3) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_1_6_adj.las
+2021-10-12 15:35:51,953 [0x00000a40] INFO  pctool - OpenMP(6) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_4_adj.las
+2021-10-12 15:35:54,661 [0x00002684] INFO  pctool - OpenMP(4) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_5_adj.las
+2021-10-12 15:35:59,675 [0x00004dbc] INFO  pctool - OpenMP(0) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_7_adj.las
+2021-10-12 15:36:03,324 [0x00005028] INFO  pctool - OpenMP(1) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_6_adj.las
+2021-10-12 15:36:11,713 [0x000013b0] INFO  pctool - OpenMP(13) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_0_adj.las
+2021-10-12 15:36:12,286 [0x00003cc0] INFO  pctool - OpenMP(10) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_2_adj.las
+2021-10-12 15:36:17,017 [0x000032a4] INFO  pctool - OpenMP(8) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_3_adj.las
+2021-10-12 15:36:29,375 [0x00002a40] INFO  pctool - OpenMP(12) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\001_005216\pc\001_005216_0_1_adj.las
+2021-10-12 15:36:29,375 [0x00004dbc] INFO  pctool - Point cloud colorizing complete in: 43.973000 seconds
+2021-10-12 15:36:29,504 [0x00004dbc] INFO  root - End pctool
+2021-10-12 15:36:30,136 [0x00004f2c] INFO  root - Start ...
+2021-10-12 15:36:30,136 [0x00004f2c] INFO  root - Start pctool ...
+2021-10-12 15:36:30,136 [0x00004f2c] INFO  pctool - pctool (rev 3.0.0-55679)
+(C) 2006-2020 Leica Geosystems AG / North West Geomatics Ltd.
+2021-10-12 15:36:30,136 [0x00004f2c] INFO  pctool - C:\Program Files\Hexagon\HxMap\Workflow Manager\pctool --block Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk --take {b2e6094d-5b09-4cd1-bb4d-7abd5cc0e72a} --output Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/ouput/block/LiDAR_las_1.4_Default_Product/002_005659 --coordinate la_n_83|WGS84|NAVD88 (Geoid12A/B) Conterminous United States|us survey feet|us survey feet --classification 0 --classification 1 --format LAS --lasVersion 1.4 --radiometricTemplate {e89d4642-f7fe-411e-9371-be9f92beec9f} --interface STD --pointCount 0 --filePattern  <FilePattern suffix="" version="1" separator="_" id="Default" prefix="">
+  <Date checked="0" pos="0" longname="Date">
+   <Year checked="0" pos="0" longname="Year"/>
+   <Month checked="0" pos="1" longname="Month"/>
+   <Day checked="0" pos="2" longname="Day"/>
+  </Date>
+  <Time checked="0" pos="1" longname="Time">
+   <Hour checked="0" pos="0" longname="Hour"/>
+   <Minute checked="0" pos="1" longname="Minute"/>
+   <Second checked="0" pos="2" longname="Second"/>
+   <MSec checked="0" pos="3" longname="Millisecond"/>
+  </Time>
+  <Take checked="1" pos="2" longname="Take">
+   <TakeId checked="2" pos="0" longname="Id"/>
+   <TakeName checked="0" pos="1" longname="Name"/>
+   <TakeNumber checked="0" pos="2" longname="Number"/>
+  </Take>
+  <SensorSystemSerialNumber checked="0" pos="3" longname="Sensor System Serial Number"/>
+  <SensorSerial checked="2" pos="4" longname="Sensor Serial Number"/>
+  <SessionId checked="0" pos="5" longname="Session"/>
+  <Project checked="0" pos="6" longname="Project"/>
+  <FlightPlan checked="0" pos="7" longname="Flight Plan"/>
+  <FlightLine checked="0" pos="8" longname="Flight Line">
+   <FlightLineId checked="0" pos="0" longname="Id"/>
+   <FlightLineName checked="0" pos="1" longname="Name"/>
+   <FlightLineNumber checked="0" pos="2" longname="Number"/>
+  </FlightLine>
+  <Strip checked="0" pos="9" longname="Strip">
+   <StripId checked="0" pos="0" longname="Id"/>
+   <StripName checked="0" pos="1" longname="Name"/>
+   <StripNumber checked="0" pos="2" longname="Number"/>
+  </Strip>
+  <SensorType checked="0" pos="10" longname="Sensor Type"/>
+  <SensorName checked="0" pos="11" longname="Sensor Name"/>
+  <Bands checked="0" pos="12" longname="Bands"/>
+ </FilePattern>
+ 
+2021-10-12 15:36:31,526 [0x00004f2c] INFO  pctool - Licensing initialization OK
+2021-10-12 15:36:31,674 [0x00004f2c] INFO  pctool - Loading the block from: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk
+2021-10-12 15:36:31,972 [0x00004f2c] INFO  pctool - Block loaded: block
+2021-10-12 15:36:31,972 [0x00004f2c] INFO  pctool - Loading radiometric template: Calibrated
+2021-10-12 15:36:31,972 [0x00004f2c] INFO  pctool - Loading the take: {b2e6094d-5b09-4cd1-bb4d-7abd5cc0e72a}
+2021-10-12 15:36:31,972 [0x00004f2c] INFO  pctool - Take loaded: 002_005659
+2021-10-12 15:36:31,972 [0x00004f2c] INFO  pctool - Finding LiDAR point cloud from the take: 002_005659
+2021-10-12 15:36:31,973 [0x00004f2c] INFO  pctool - Number of point cloud files to be processed: 14
+2021-10-12 15:36:31,973 [0x00004f2c] INFO  pctool - Calculating the area to be processed
+2021-10-12 15:36:31,973 [0x00004f2c] INFO  pctool - Area to be processed: 85848733.399621
+2021-10-12 15:36:32,110 [0x00004f2c] INFO  pctool - OpenMP(0) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_0_adj.las
+2021-10-12 15:36:32,115 [0x00001a5c] INFO  pctool - OpenMP(1) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_1_adj.las
+2021-10-12 15:36:32,120 [0x00002490] INFO  pctool - OpenMP(2) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_2_adj.las
+2021-10-12 15:36:32,127 [0x000002b4] INFO  pctool - OpenMP(3) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_2_adj.las
+2021-10-12 15:36:32,132 [0x00001e88] INFO  pctool - OpenMP(4) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_3_adj.las
+2021-10-12 15:36:32,139 [0x00002d04] INFO  pctool - OpenMP(5) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_3_adj.las
+2021-10-12 15:36:32,146 [0x00001374] INFO  pctool - OpenMP(6) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_4_adj.las
+2021-10-12 15:36:32,155 [0x000039e0] INFO  pctool - OpenMP(7) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_4_adj.las
+2021-10-12 15:36:32,162 [0x00003f18] INFO  pctool - OpenMP(8) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_5_adj.las
+2021-10-12 15:36:32,170 [0x00002054] INFO  pctool - OpenMP(9) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_5_adj.las
+2021-10-12 15:36:32,178 [0x00004d3c] INFO  pctool - OpenMP(10) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_6_adj.las
+2021-10-12 15:36:32,186 [0x00001158] INFO  pctool - OpenMP(11) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_6_adj.las
+2021-10-12 15:36:32,194 [0x00003c8c] INFO  pctool - OpenMP(12) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_7_adj.las
+2021-10-12 15:36:32,203 [0x00002294] INFO  pctool - OpenMP(13) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_7_adj.las
+2021-10-12 15:36:32,776 [0x000002b4] INFO  pctool - OpenMP(3) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_2_adj.las
+2021-10-12 15:36:34,494 [0x00002d04] INFO  pctool - OpenMP(5) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_3_adj.las
+2021-10-12 15:36:36,644 [0x00002294] INFO  pctool - OpenMP(13) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_7_adj.las
+2021-10-12 15:36:36,653 [0x000039e0] INFO  pctool - OpenMP(7) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_4_adj.las
+2021-10-12 15:36:38,746 [0x00002054] INFO  pctool - OpenMP(9) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_5_adj.las
+2021-10-12 15:36:39,752 [0x00001158] INFO  pctool - OpenMP(11) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_1_6_adj.las
+2021-10-12 15:36:42,473 [0x00003c8c] INFO  pctool - OpenMP(12) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_7_adj.las
+2021-10-12 15:36:50,850 [0x00004f2c] INFO  pctool - OpenMP(0) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_0_adj.las
+2021-10-12 15:36:51,624 [0x00001e88] INFO  pctool - OpenMP(4) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_3_adj.las
+2021-10-12 15:36:54,039 [0x00001374] INFO  pctool - OpenMP(6) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_4_adj.las
+2021-10-12 15:36:55,756 [0x00004d3c] INFO  pctool - OpenMP(10) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_6_adj.las
+2021-10-12 15:36:55,860 [0x00002490] INFO  pctool - OpenMP(2) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_2_adj.las
+2021-10-12 15:36:57,519 [0x00001a5c] INFO  pctool - OpenMP(1) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_1_adj.las
+2021-10-12 15:36:58,091 [0x00003f18] INFO  pctool - OpenMP(8) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\002_005659\pc\002_005659_0_5_adj.las
+2021-10-12 15:36:58,091 [0x00004f2c] INFO  pctool - Point cloud colorizing complete in: 26.118000 seconds
+2021-10-12 15:36:58,140 [0x00004f2c] INFO  root - End pctool
+2021-10-12 15:36:58,713 [0x0000297c] INFO  root - Start ...
+2021-10-12 15:36:58,713 [0x0000297c] INFO  root - Start pctool ...
+2021-10-12 15:36:58,713 [0x0000297c] INFO  pctool - pctool (rev 3.0.0-55679)
+(C) 2006-2020 Leica Geosystems AG / North West Geomatics Ltd.
+2021-10-12 15:36:58,713 [0x0000297c] INFO  pctool - C:\Program Files\Hexagon\HxMap\Workflow Manager\pctool --block Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk --take {707cc1e5-cb1d-45fa-a5b5-7332aeabfaa1} --output Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/ouput/block/LiDAR_las_1.4_Default_Product/003_010127 --coordinate la_n_83|WGS84|NAVD88 (Geoid12A/B) Conterminous United States|us survey feet|us survey feet --classification 0 --classification 1 --format LAS --lasVersion 1.4 --radiometricTemplate {e89d4642-f7fe-411e-9371-be9f92beec9f} --interface STD --pointCount 0 --filePattern  <FilePattern suffix="" version="1" separator="_" id="Default" prefix="">
+  <Date checked="0" pos="0" longname="Date">
+   <Year checked="0" pos="0" longname="Year"/>
+   <Month checked="0" pos="1" longname="Month"/>
+   <Day checked="0" pos="2" longname="Day"/>
+  </Date>
+  <Time checked="0" pos="1" longname="Time">
+   <Hour checked="0" pos="0" longname="Hour"/>
+   <Minute checked="0" pos="1" longname="Minute"/>
+   <Second checked="0" pos="2" longname="Second"/>
+   <MSec checked="0" pos="3" longname="Millisecond"/>
+  </Time>
+  <Take checked="1" pos="2" longname="Take">
+   <TakeId checked="2" pos="0" longname="Id"/>
+   <TakeName checked="0" pos="1" longname="Name"/>
+   <TakeNumber checked="0" pos="2" longname="Number"/>
+  </Take>
+  <SensorSystemSerialNumber checked="0" pos="3" longname="Sensor System Serial Number"/>
+  <SensorSerial checked="2" pos="4" longname="Sensor Serial Number"/>
+  <SessionId checked="0" pos="5" longname="Session"/>
+  <Project checked="0" pos="6" longname="Project"/>
+  <FlightPlan checked="0" pos="7" longname="Flight Plan"/>
+  <FlightLine checked="0" pos="8" longname="Flight Line">
+   <FlightLineId checked="0" pos="0" longname="Id"/>
+   <FlightLineName checked="0" pos="1" longname="Name"/>
+   <FlightLineNumber checked="0" pos="2" longname="Number"/>
+  </FlightLine>
+  <Strip checked="0" pos="9" longname="Strip">
+   <StripId checked="0" pos="0" longname="Id"/>
+   <StripName checked="0" pos="1" longname="Name"/>
+   <StripNumber checked="0" pos="2" longname="Number"/>
+  </Strip>
+  <SensorType checked="0" pos="10" longname="Sensor Type"/>
+  <SensorName checked="0" pos="11" longname="Sensor Name"/>
+  <Bands checked="0" pos="12" longname="Bands"/>
+ </FilePattern>
+ 
+2021-10-12 15:37:00,076 [0x0000297c] INFO  pctool - Licensing initialization OK
+2021-10-12 15:37:00,222 [0x0000297c] INFO  pctool - Loading the block from: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk
+2021-10-12 15:37:00,514 [0x0000297c] INFO  pctool - Block loaded: block
+2021-10-12 15:37:00,514 [0x0000297c] INFO  pctool - Loading radiometric template: Calibrated
+2021-10-12 15:37:00,514 [0x0000297c] INFO  pctool - Loading the take: {707cc1e5-cb1d-45fa-a5b5-7332aeabfaa1}
+2021-10-12 15:37:00,514 [0x0000297c] INFO  pctool - Take loaded: 003_010127
+2021-10-12 15:37:00,514 [0x0000297c] INFO  pctool - Finding LiDAR point cloud from the take: 003_010127
+2021-10-12 15:37:00,515 [0x0000297c] INFO  pctool - Number of point cloud files to be processed: 15
+2021-10-12 15:37:00,515 [0x0000297c] INFO  pctool - Calculating the area to be processed
+2021-10-12 15:37:00,515 [0x0000297c] INFO  pctool - Area to be processed: 84610222.052627
+2021-10-12 15:37:00,519 [0x0000297c] INFO  pctool - OpenMP(0) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_7_adj.las
+2021-10-12 15:37:00,524 [0x000041e4] INFO  pctool - OpenMP(1) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_7_adj.las
+2021-10-12 15:37:00,529 [0x00003a40] INFO  pctool - OpenMP(2) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_6_adj.las
+2021-10-12 15:37:00,534 [0x000044e8] INFO  pctool - OpenMP(3) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_6_adj.las
+2021-10-12 15:37:00,540 [0x00003b40] INFO  pctool - OpenMP(4) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_5_adj.las
+2021-10-12 15:37:00,545 [0x00003f2c] INFO  pctool - OpenMP(5) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_5_adj.las
+2021-10-12 15:37:00,551 [0x00001d30] INFO  pctool - OpenMP(6) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_4_adj.las
+2021-10-12 15:37:00,556 [0x00004060] INFO  pctool - OpenMP(7) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_4_adj.las
+2021-10-12 15:37:00,563 [0x00004d9c] INFO  pctool - OpenMP(8) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_3_adj.las
+2021-10-12 15:37:00,570 [0x00000e50] INFO  pctool - OpenMP(9) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_3_adj.las
+2021-10-12 15:37:00,578 [0x00003188] INFO  pctool - OpenMP(10) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_2_adj.las
+2021-10-12 15:37:00,585 [0x00000af0] INFO  pctool - OpenMP(11) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_2_adj.las
+2021-10-12 15:37:00,593 [0x00004084] INFO  pctool - OpenMP(12) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_1_adj.las
+2021-10-12 15:37:00,607 [0x0000259c] INFO  pctool - OpenMP(13) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_1_adj.las
+2021-10-12 15:37:00,616 [0x0000284c] INFO  pctool - OpenMP(14) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_0_adj.las
+2021-10-12 15:37:00,638 [0x0000259c] INFO  pctool - OpenMP(13) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_1_adj.las
+2021-10-12 15:37:01,817 [0x00000af0] INFO  pctool - OpenMP(11) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_2_adj.las
+2021-10-12 15:37:03,069 [0x00000e50] INFO  pctool - OpenMP(9) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_3_adj.las
+2021-10-12 15:37:04,459 [0x0000297c] INFO  pctool - OpenMP(0) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_7_adj.las
+2021-10-12 15:37:05,310 [0x00004060] INFO  pctool - OpenMP(7) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_4_adj.las
+2021-10-12 15:37:06,642 [0x00003f2c] INFO  pctool - OpenMP(5) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_5_adj.las
+2021-10-12 15:37:08,549 [0x000044e8] INFO  pctool - OpenMP(3) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_1_6_adj.las
+2021-10-12 15:37:13,445 [0x0000284c] INFO  pctool - OpenMP(14) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_0_adj.las
+2021-10-12 15:37:14,104 [0x000041e4] INFO  pctool - OpenMP(1) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_7_adj.las
+2021-10-12 15:37:19,020 [0x00003188] INFO  pctool - OpenMP(10) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_2_adj.las
+2021-10-12 15:37:20,032 [0x00004d9c] INFO  pctool - OpenMP(8) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_3_adj.las
+2021-10-12 15:37:22,520 [0x00004084] INFO  pctool - OpenMP(12) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_1_adj.las
+2021-10-12 15:37:24,386 [0x00001d30] INFO  pctool - OpenMP(6) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_4_adj.las
+2021-10-12 15:37:24,861 [0x00003a40] INFO  pctool - OpenMP(2) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_6_adj.las
+2021-10-12 15:37:25,663 [0x00003b40] INFO  pctool - OpenMP(4) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\003_010127\pc\003_010127_0_5_adj.las
+2021-10-12 15:37:25,663 [0x0000297c] INFO  pctool - Point cloud colorizing complete in: 25.148000 seconds
+2021-10-12 15:37:25,730 [0x0000297c] INFO  root - End pctool
+2021-10-12 15:37:26,277 [0x0000532c] INFO  root - Start ...
+2021-10-12 15:37:26,277 [0x0000532c] INFO  root - Start pctool ...
+2021-10-12 15:37:26,277 [0x0000532c] INFO  pctool - pctool (rev 3.0.0-55679)
+(C) 2006-2020 Leica Geosystems AG / North West Geomatics Ltd.
+2021-10-12 15:37:26,277 [0x0000532c] INFO  pctool - C:\Program Files\Hexagon\HxMap\Workflow Manager\pctool --block Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk --take {8882e8fd-4451-4029-a8fc-f0008666e0a0} --output Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/ouput/block/LiDAR_las_1.4_Default_Product/004_010545 --coordinate la_n_83|WGS84|NAVD88 (Geoid12A/B) Conterminous United States|us survey feet|us survey feet --classification 0 --classification 1 --format LAS --lasVersion 1.4 --radiometricTemplate {e89d4642-f7fe-411e-9371-be9f92beec9f} --interface STD --pointCount 0 --filePattern  <FilePattern suffix="" version="1" separator="_" id="Default" prefix="">
+  <Date checked="0" pos="0" longname="Date">
+   <Year checked="0" pos="0" longname="Year"/>
+   <Month checked="0" pos="1" longname="Month"/>
+   <Day checked="0" pos="2" longname="Day"/>
+  </Date>
+  <Time checked="0" pos="1" longname="Time">
+   <Hour checked="0" pos="0" longname="Hour"/>
+   <Minute checked="0" pos="1" longname="Minute"/>
+   <Second checked="0" pos="2" longname="Second"/>
+   <MSec checked="0" pos="3" longname="Millisecond"/>
+  </Time>
+  <Take checked="1" pos="2" longname="Take">
+   <TakeId checked="2" pos="0" longname="Id"/>
+   <TakeName checked="0" pos="1" longname="Name"/>
+   <TakeNumber checked="0" pos="2" longname="Number"/>
+  </Take>
+  <SensorSystemSerialNumber checked="0" pos="3" longname="Sensor System Serial Number"/>
+  <SensorSerial checked="2" pos="4" longname="Sensor Serial Number"/>
+  <SessionId checked="0" pos="5" longname="Session"/>
+  <Project checked="0" pos="6" longname="Project"/>
+  <FlightPlan checked="0" pos="7" longname="Flight Plan"/>
+  <FlightLine checked="0" pos="8" longname="Flight Line">
+   <FlightLineId checked="0" pos="0" longname="Id"/>
+   <FlightLineName checked="0" pos="1" longname="Name"/>
+   <FlightLineNumber checked="0" pos="2" longname="Number"/>
+  </FlightLine>
+  <Strip checked="0" pos="9" longname="Strip">
+   <StripId checked="0" pos="0" longname="Id"/>
+   <StripName checked="0" pos="1" longname="Name"/>
+   <StripNumber checked="0" pos="2" longname="Number"/>
+  </Strip>
+  <SensorType checked="0" pos="10" longname="Sensor Type"/>
+  <SensorName checked="0" pos="11" longname="Sensor Name"/>
+  <Bands checked="0" pos="12" longname="Bands"/>
+ </FilePattern>
+ 
+2021-10-12 15:37:27,638 [0x0000532c] INFO  pctool - Licensing initialization OK
+2021-10-12 15:37:27,792 [0x0000532c] INFO  pctool - Loading the block from: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk
+2021-10-12 15:37:28,092 [0x0000532c] INFO  pctool - Block loaded: block
+2021-10-12 15:37:28,092 [0x0000532c] INFO  pctool - Loading radiometric template: Calibrated
+2021-10-12 15:37:28,092 [0x0000532c] INFO  pctool - Loading the take: {8882e8fd-4451-4029-a8fc-f0008666e0a0}
+2021-10-12 15:37:28,092 [0x0000532c] INFO  pctool - Take loaded: 004_010545
+2021-10-12 15:37:28,092 [0x0000532c] INFO  pctool - Finding LiDAR point cloud from the take: 004_010545
+2021-10-12 15:37:28,093 [0x0000532c] INFO  pctool - Number of point cloud files to be processed: 14
+2021-10-12 15:37:28,093 [0x0000532c] INFO  pctool - Calculating the area to be processed
+2021-10-12 15:37:28,093 [0x0000532c] INFO  pctool - Area to be processed: 84896441.109222
+2021-10-12 15:37:28,313 [0x0000532c] INFO  pctool - OpenMP(0) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_0_adj.las
+2021-10-12 15:37:28,318 [0x0000321c] INFO  pctool - OpenMP(1) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_1_adj.las
+2021-10-12 15:37:28,323 [0x00004db4] INFO  pctool - OpenMP(2) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_2_adj.las
+2021-10-12 15:37:28,328 [0x00003c1c] INFO  pctool - OpenMP(3) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_2_adj.las
+2021-10-12 15:37:28,333 [0x00004b14] INFO  pctool - OpenMP(4) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_3_adj.las
+2021-10-12 15:37:28,338 [0x000050a4] INFO  pctool - OpenMP(5) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_3_adj.las
+2021-10-12 15:37:28,345 [0x00003094] INFO  pctool - OpenMP(6) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_4_adj.las
+2021-10-12 15:37:28,351 [0x00001f78] INFO  pctool - OpenMP(7) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_4_adj.las
+2021-10-12 15:37:28,358 [0x00000f68] INFO  pctool - OpenMP(8) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_5_adj.las
+2021-10-12 15:37:28,366 [0x00003b9c] INFO  pctool - OpenMP(9) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_5_adj.las
+2021-10-12 15:37:28,372 [0x00001bdc] INFO  pctool - OpenMP(10) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_6_adj.las
+2021-10-12 15:37:28,379 [0x000052f0] INFO  pctool - OpenMP(11) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_6_adj.las
+2021-10-12 15:37:28,386 [0x000043e4] INFO  pctool - OpenMP(12) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_7_adj.las
+2021-10-12 15:37:28,393 [0x00005060] INFO  pctool - OpenMP(13) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_7_adj.las
+2021-10-12 15:37:28,719 [0x00003c1c] INFO  pctool - OpenMP(3) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_2_adj.las
+2021-10-12 15:37:30,202 [0x000050a4] INFO  pctool - OpenMP(5) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_3_adj.las
+2021-10-12 15:37:31,143 [0x00003b9c] INFO  pctool - OpenMP(9) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_5_adj.las
+2021-10-12 15:37:32,061 [0x00001f78] INFO  pctool - OpenMP(7) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_4_adj.las
+2021-10-12 15:37:32,071 [0x00005060] INFO  pctool - OpenMP(13) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_7_adj.las
+2021-10-12 15:37:32,709 [0x000052f0] INFO  pctool - OpenMP(11) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_1_6_adj.las
+2021-10-12 15:37:40,395 [0x0000532c] INFO  pctool - OpenMP(0) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_0_adj.las
+2021-10-12 15:37:41,393 [0x000043e4] INFO  pctool - OpenMP(12) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_7_adj.las
+2021-10-12 15:37:48,139 [0x00004b14] INFO  pctool - OpenMP(4) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_3_adj.las
+2021-10-12 15:37:49,338 [0x0000321c] INFO  pctool - OpenMP(1) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_1_adj.las
+2021-10-12 15:37:49,830 [0x00004db4] INFO  pctool - OpenMP(2) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_2_adj.las
+2021-10-12 15:37:50,982 [0x00000f68] INFO  pctool - OpenMP(8) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_5_adj.las
+2021-10-12 15:37:51,135 [0x00003094] INFO  pctool - OpenMP(6) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_4_adj.las
+2021-10-12 15:37:53,373 [0x00001bdc] INFO  pctool - OpenMP(10) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\004_010545\pc\004_010545_0_6_adj.las
+2021-10-12 15:37:53,374 [0x0000532c] INFO  pctool - Point cloud colorizing complete in: 25.281000 seconds
+2021-10-12 15:37:53,418 [0x0000532c] INFO  root - End pctool
+2021-10-12 15:37:54,012 [0x00001270] INFO  root - Start ...
+2021-10-12 15:37:54,012 [0x00001270] INFO  root - Start pctool ...
+2021-10-12 15:37:54,012 [0x00001270] INFO  pctool - pctool (rev 3.0.0-55679)
+(C) 2006-2020 Leica Geosystems AG / North West Geomatics Ltd.
+2021-10-12 15:37:54,012 [0x00001270] INFO  pctool - C:\Program Files\Hexagon\HxMap\Workflow Manager\pctool --block Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk --take {c2110f3c-ad95-4337-bf98-2dcc1a6ba765} --output Q:/Lidar/21.08.25 Natchitoches LiDAR Test/LiDAR DATA/21.10.11_Natchitoches/ouput/block/LiDAR_las_1.4_Default_Product/005_011048 --coordinate la_n_83|WGS84|NAVD88 (Geoid12A/B) Conterminous United States|us survey feet|us survey feet --classification 0 --classification 1 --format LAS --lasVersion 1.4 --radiometricTemplate {e89d4642-f7fe-411e-9371-be9f92beec9f} --interface STD --pointCount 0 --filePattern  <FilePattern suffix="" version="1" separator="_" id="Default" prefix="">
+  <Date checked="0" pos="0" longname="Date">
+   <Year checked="0" pos="0" longname="Year"/>
+   <Month checked="0" pos="1" longname="Month"/>
+   <Day checked="0" pos="2" longname="Day"/>
+  </Date>
+  <Time checked="0" pos="1" longname="Time">
+   <Hour checked="0" pos="0" longname="Hour"/>
+   <Minute checked="0" pos="1" longname="Minute"/>
+   <Second checked="0" pos="2" longname="Second"/>
+   <MSec checked="0" pos="3" longname="Millisecond"/>
+  </Time>
+  <Take checked="1" pos="2" longname="Take">
+   <TakeId checked="2" pos="0" longname="Id"/>
+   <TakeName checked="0" pos="1" longname="Name"/>
+   <TakeNumber checked="0" pos="2" longname="Number"/>
+  </Take>
+  <SensorSystemSerialNumber checked="0" pos="3" longname="Sensor System Serial Number"/>
+  <SensorSerial checked="2" pos="4" longname="Sensor Serial Number"/>
+  <SessionId checked="0" pos="5" longname="Session"/>
+  <Project checked="0" pos="6" longname="Project"/>
+  <FlightPlan checked="0" pos="7" longname="Flight Plan"/>
+  <FlightLine checked="0" pos="8" longname="Flight Line">
+   <FlightLineId checked="0" pos="0" longname="Id"/>
+   <FlightLineName checked="0" pos="1" longname="Name"/>
+   <FlightLineNumber checked="0" pos="2" longname="Number"/>
+  </FlightLine>
+  <Strip checked="0" pos="9" longname="Strip">
+   <StripId checked="0" pos="0" longname="Id"/>
+   <StripName checked="0" pos="1" longname="Name"/>
+   <StripNumber checked="0" pos="2" longname="Number"/>
+  </Strip>
+  <SensorType checked="0" pos="10" longname="Sensor Type"/>
+  <SensorName checked="0" pos="11" longname="Sensor Name"/>
+  <Bands checked="0" pos="12" longname="Bands"/>
+ </FilePattern>
+ 
+2021-10-12 15:37:55,370 [0x00001270] INFO  pctool - Licensing initialization OK
+2021-10-12 15:37:55,520 [0x00001270] INFO  pctool - Loading the block from: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\block.hexbk
+2021-10-12 15:37:55,829 [0x00001270] INFO  pctool - Block loaded: block
+2021-10-12 15:37:55,829 [0x00001270] INFO  pctool - Loading radiometric template: Calibrated
+2021-10-12 15:37:55,829 [0x00001270] INFO  pctool - Loading the take: {c2110f3c-ad95-4337-bf98-2dcc1a6ba765}
+2021-10-12 15:37:55,829 [0x00001270] INFO  pctool - Take loaded: 005_011048
+2021-10-12 15:37:55,829 [0x00001270] INFO  pctool - Finding LiDAR point cloud from the take: 005_011048
+2021-10-12 15:37:55,830 [0x00001270] INFO  pctool - Number of point cloud files to be processed: 15
+2021-10-12 15:37:55,830 [0x00001270] INFO  pctool - Calculating the area to be processed
+2021-10-12 15:37:55,830 [0x00001270] INFO  pctool - Area to be processed: 85366888.246515
+2021-10-12 15:37:55,879 [0x00001270] INFO  pctool - OpenMP(0) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_6_adj.las
+2021-10-12 15:37:55,883 [0x00004c34] INFO  pctool - OpenMP(1) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_7_adj.las
+2021-10-12 15:37:55,888 [0x000043b4] INFO  pctool - OpenMP(2) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_7_adj.las
+2021-10-12 15:37:55,893 [0x000051fc] INFO  pctool - OpenMP(3) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_6_adj.las
+2021-10-12 15:37:55,899 [0x00000dc4] INFO  pctool - OpenMP(4) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_5_adj.las
+2021-10-12 15:37:55,905 [0x00003868] INFO  pctool - OpenMP(5) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_5_adj.las
+2021-10-12 15:37:55,911 [0x00001664] INFO  pctool - OpenMP(6) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_4_adj.las
+2021-10-12 15:37:55,918 [0x00004d14] INFO  pctool - OpenMP(7) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_4_adj.las
+2021-10-12 15:37:55,926 [0x00005214] INFO  pctool - OpenMP(8) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_3_adj.las
+2021-10-12 15:37:55,933 [0x0000524c] INFO  pctool - OpenMP(9) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_3_adj.las
+2021-10-12 15:37:55,940 [0x00002f70] INFO  pctool - OpenMP(10) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_2_adj.las
+2021-10-12 15:37:55,946 [0x00003f58] INFO  pctool - OpenMP(11) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_2_adj.las
+2021-10-12 15:37:55,954 [0x000039ec] INFO  pctool - OpenMP(12) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_1_adj.las
+2021-10-12 15:37:55,964 [0x00001b64] INFO  pctool - OpenMP(13) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_1_adj.las
+2021-10-12 15:37:55,985 [0x000035bc] INFO  pctool - OpenMP(14) - Processing point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_0_adj.las
+2021-10-12 15:37:56,084 [0x00001b64] INFO  pctool - OpenMP(13) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_1_adj.las
+2021-10-12 15:37:57,042 [0x00003f58] INFO  pctool - OpenMP(11) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_2_adj.las
+2021-10-12 15:37:59,158 [0x0000524c] INFO  pctool - OpenMP(9) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_3_adj.las
+2021-10-12 15:37:59,481 [0x000043b4] INFO  pctool - OpenMP(2) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_7_adj.las
+2021-10-12 15:38:00,321 [0x00004d14] INFO  pctool - OpenMP(7) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_4_adj.las
+2021-10-12 15:38:01,340 [0x00003868] INFO  pctool - OpenMP(5) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_5_adj.las
+2021-10-12 15:38:02,532 [0x000051fc] INFO  pctool - OpenMP(3) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_1_6_adj.las
+2021-10-12 15:38:08,110 [0x00004c34] INFO  pctool - OpenMP(1) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_7_adj.las
+2021-10-12 15:38:09,324 [0x000035bc] INFO  pctool - OpenMP(14) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_0_adj.las
+2021-10-12 15:38:16,070 [0x00002f70] INFO  pctool - OpenMP(10) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_2_adj.las
+2021-10-12 15:38:16,964 [0x000039ec] INFO  pctool - OpenMP(12) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_1_adj.las
+2021-10-12 15:38:17,425 [0x00001664] INFO  pctool - OpenMP(6) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_4_adj.las
+2021-10-12 15:38:18,119 [0x00001270] INFO  pctool - OpenMP(0) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_6_adj.las
+2021-10-12 15:38:18,440 [0x00005214] INFO  pctool - OpenMP(8) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_3_adj.las
+2021-10-12 15:38:18,534 [0x00000dc4] INFO  pctool - OpenMP(4) - Processed point cloud file: Q:\Lidar\21.08.25 Natchitoches LiDAR Test\LiDAR DATA\21.10.11_Natchitoches\block\block\20210825_003503\Natchitoches_test_flight_07192021_1\Natchitoches_test_flight_07192021_1\005_011048\pc\005_011048_0_5_adj.las
+2021-10-12 15:38:18,534 [0x00001270] INFO  pctool - Point cloud colorizing complete in: 22.704000 seconds
+2021-10-12 15:38:18,632 [0x00001270] INFO  root - End pctool
