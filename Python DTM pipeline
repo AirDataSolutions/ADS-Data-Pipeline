@@ -1,0 +1,23 @@
+import os
+import subprocess #subprocess will be used later to automatically start batch files
+
+#get list of all files and directories and the amount of them
+path = "C://Users//DataWing Global//Desktop//Pipeline//input"
+dir_list = os.listdir(path)
+number_of_elements = len(dir_list)
+
+#Removes .las in filename to be used in path for batch files
+lst = [os.path.splitext(x)[0] for x in dir_list]
+
+#variable paths 
+a_path = 'C://Users//DataWing Global//Desktop//Pipeline//batch//'
+a_filetype = '.bat'
+joined_path = os.path.join(a_path, lst[0]+ a_filetype)
+
+
+
+
+
+mybat = open(joined_path,'w+') #Creates batch file
+mybat.write('color a') #commands for batch file    (pdal translate 012_0.las dtm.tif --writers.gdal.resolution=1)
+mybat.close()
