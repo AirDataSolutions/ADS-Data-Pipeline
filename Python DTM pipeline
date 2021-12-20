@@ -1,23 +1,21 @@
 import os
-import subprocess #subprocess will be used later to automatically start batch files
+import subprocess
 
-#get list of all files and directories and the amount of them
+ #get list of all files and directories and the amount of them
 path = "C://Users//DataWing Global//Desktop//Pipeline//input"
 dir_list = os.listdir(path)
 number_of_elements = len(dir_list)
+a_path = 'C://Users//DataWing Global//Desktop//Pipeline//batch//' #Used for stringing file paths together
+a_filetype = ".bat"                                               #^^^^^
+b_filetype = "dtm.tif"
 
 #Removes .las in filename to be used in path for batch files
 lst = [os.path.splitext(x)[0] for x in dir_list]
 
-#variable paths 
-a_path = 'C://Users//DataWing Global//Desktop//Pipeline//batch//'
-a_filetype = '.bat'
-joined_path = os.path.join(a_path, lst[0]+ a_filetype)
 
-
-
-
-
-mybat = open(joined_path,'w+') #Creates batch file
-mybat.write('color a') #commands for batch file    (pdal translate 012_0.las dtm.tif --writers.gdal.resolution=1)
-mybat.close()
+for i in range(len(lst)):                                         #For loop for cycling arrays to make batch scripts for each .las
+    joined_path = os.path.join(a_path, lst[i] + a_filetype) 
+    mybat = open(joined_path,'w+')                                #Creates batch file
+    mybat.write("pdal translate {} {} --writers.gdal.resolution=1".format(dir_list[i], lst[i] + b_filetype))
+    i+1  
+    mybat.close() 
