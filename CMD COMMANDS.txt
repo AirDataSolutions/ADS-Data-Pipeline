@@ -1,0 +1,5 @@
+pdal translate 012_0.las 012_new --writers.gdal.resolution=0.25 --writers.gdal.window_size=16
+
+gdaldem hillshade mergeddtm.tif hillshadedmerged.tif
+
+python gdal_merge.py -o mergeddtm.tif 012_1dtm.tif 012_2dtm.toif 012_2dtm.tif 012_3dtm.tif 012_4dtm.tif
