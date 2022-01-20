@@ -19,7 +19,7 @@ for i in range(len(lst)):                                         #For loop for 
     call %root%//activate.bat
     call activate pdalpy
     cd C://Users//DataWing Global//Desktop//Pipeline//input
-    pdal translate {} {} --writers.gdal.resolution=0.25\ \ --writers.gdal.window_size=16'''.format(dir_list[i], lst[i] + b_filetype)) ## {}{} input for file name variables, Window_size fills in 'NO_DATA' holes
+    pdal translate {} {} --writers.gdal.resolution=0.5\ \ --writers.gdal.window_size=16'''.format(dir_list[i], lst[i] + b_filetype)) ## {}{} input for file name variables, Window_size fills in 'NO_DATA' holes
     mybat.close()                                                 #IDFK stops the batch shit ig?
     subprocess.call([r'C://Users//DataWing Global//Desktop//Pipeline//batch//{}'.format(lst[i] + a_filetype)]) #runs batch file
     i+1
