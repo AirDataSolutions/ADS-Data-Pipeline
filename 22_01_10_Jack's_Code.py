@@ -23,3 +23,5 @@ for i in range(len(lst)):                                         #For loop for 
     mybat.close()                                                 #IDFK stops the batch shit ig?
     subprocess.call([r'C://Users//DataWing Global//Desktop//Pipeline//batch//{}'.format(lst[i] + a_filetype)]) #runs batch file
     i+1
+    
+    #This code can be used with every PDAL and GDAL command, just remove Line 22 and replace with desired command.
